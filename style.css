@@ -1,0 +1,87 @@
+/*    .box{
+        color: #fff;
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+    }
+    .red{ background: #ff0000; }
+    .green{ background: #228B22; }
+    .blue{ background: #0000ff; }
+    label{ margin-right: 15px; }
+*/
+body {
+    margin: 0;
+    padding: 10px;
+    /*background-color: #d3e0ea;*/
+    font-family: 'Noto Serif KR', serif;
+    font-size: 17px;
+}
+#container {
+    width: 100%;
+    display: flex;;
+}
+#type {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    padding: 10px;
+}
+#color {
+    width: 30px;
+    background-color: #FF5252;
+    border: 1px solid grey;
+}
+#text {
+    border: 1px solid grey;    
+}
+#Q {
+    font-weight: bold;
+    /*font-size: 20px;*/
+}
+#Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #Q7, #Q8 {
+    width: 55%;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f6f5f5;
+}
+#A1, #A2, #A3, #A4, #A5, #A6, #A7, #A8 {
+    width: 45%;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #f6f5f5;
+}
+.Q1box, .Q2box, .Q3box, .Q4box, .Q5box, .Q6box, .Q7box, .Q8box {
+    display: none;
+}
+#left {
+    width: 55px;
+}
+P {
+    margin-top: 0;
+}
+#title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+#sub-title {
+    text-align: center;
+}
+span {
+    font-size: 13px;
+}
