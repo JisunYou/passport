@@ -3,6 +3,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q1box").hide();
         $("#"+inputValue).show();
+        $("#A1").addClass('active');
     });
 });
 
@@ -12,6 +13,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q2box").hide();
         $("#"+inputValue).show();
+        $("#A2").addClass('active');
     });
 });
 
@@ -20,6 +22,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q3box").hide();
         $("#"+inputValue).show();
+        $("#A3").addClass('active');
     });
 });
 $(document).ready(function(){
@@ -27,6 +30,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q4box").hide();
         $("#"+inputValue).show();
+        $("#A4").addClass('active');
     });
 });
 $(document).ready(function(){
@@ -34,6 +38,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q5box").hide();
         $("#"+inputValue).show();
+        $("#A5").addClass('active');
     });
 });
 $(document).ready(function(){
@@ -41,6 +46,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q6box").hide();
         $("#"+inputValue).show();
+        $("#A6").addClass('active');
     });
 });
 $(document).ready(function(){
@@ -48,6 +54,7 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q7box").hide();
         $("#"+inputValue).show();
+        $("#A7").addClass('active');
     });
 });
 $(document).ready(function(){
@@ -55,5 +62,6 @@ $(document).ready(function(){
         var inputValue = $(this).attr("value");
         $(".Q8box").hide();
         $("#"+inputValue).show();
+        $("#A8").addClass('active');
     });
 });
