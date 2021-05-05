@@ -40,7 +40,13 @@
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	#sub-title {
+    	text-align: justify;
+	}
 	br.responsive {
 		display: inline;
+	}
+	br.responsive_back {
+		display: none;
 	}
 }

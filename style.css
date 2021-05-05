@@ -66,10 +66,13 @@ th {
     background-color: #f6f5f5;
 }
 #Q {
-    font-family: 'Noto Serif KR', serif;
+    /*font-family: 'Noto Serif KR', serif;*/
     font-weight: bold;
     font-size: 1.3em;
     margin-bottom: 10px;
+}
+#yesno {
+    text-align: justify;
 }
 #A1, #A2, #A3, #A4, #A5, #A6, #A7, #A8 {
     width: 40%;
@@ -80,7 +83,7 @@ th {
     padding: 20px;
     margin-bottom: 10px;
     background-color: #f6f5f5;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .Q1box, .Q2box, .Q3box, .Q4box, .Q5box, .Q6box, .Q7box, .Q8box {
     display: none;
@@ -106,7 +109,7 @@ P {
     margin-top: 20px;
     margin-bottom: 20px;
     /*font-family: 'East Sea Dokdo', cursive;*/
-    font-family: 'Noto Serif KR', serif;
+    /*font-family: 'Noto Serif KR', serif;*/
 }
 #sub-title {
     text-align: center;
