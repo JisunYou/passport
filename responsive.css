@@ -18,6 +18,7 @@
 	#Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #Q7, #Q8 {
  		width: 100%;
  		box-sizing: border-box;
+ 		margin-right: 0;
 	}
 	#A1, #A2, #A3, #A4, #A5, #A6, #A7, #A8 {
     	width: 100%;
