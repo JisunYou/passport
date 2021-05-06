@@ -93,6 +93,7 @@ th {
 }*/
 label {
     margin-left: 2em;
+    line-height: 2em;
 /*    display: inline-block;
     width: 100%;*/
 }
@@ -107,8 +108,8 @@ P {
 #title {
     font-size: 3em;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     /*font-family: 'East Sea Dokdo', cursive;*/
     /*font-family: 'Noto Serif KR', serif;*/
 }
