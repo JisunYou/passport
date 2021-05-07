@@ -123,3 +123,13 @@ span {
 .active{
   border: 3px solid #2E86C1;
 }
+.footer {
+    /*border-top: 1px solid #ededed;*/
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    margin-top: 1em;
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
